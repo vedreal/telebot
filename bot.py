@@ -3,8 +3,8 @@ from telegram import Update, WebAppInfo, InlineKeyboardButton, InlineKeyboardMar
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Ambil token dari environment variable
-BOT_TOKEN = os.getenv('BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE')
-MINIAPP_URL = os.getenv('MINIAPP_URL', 'https://your-miniapp-url.com')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '8228096941:AAGNYLcAwuX9Xvuj6PdKuv6Kvy-qNfPZFmo')
+MINIAPP_URL = os.getenv('MINIAPP_URL', 'https://t.me/yafscoin_bot/start')
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handler untuk command /start"""
